@@ -1,0 +1,29 @@
+{
+  "name": "fast-run",
+  "version": "0.1.0",
+  "description": "Lightweight code editor",
+  "license": "MIT",
+  "esy": {
+    "build": "refmterr dune build -p #{self.name}"
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "@reason-native/rely": "*",
+    "@reason-native/console": "*",
+    "@esy-ocaml/reason": ">= 3.4.0 < 3.5.0",
+    "refmterr": "*",
+    "ocaml": "~4.7.0",
+    "revery": "*",
+    "@opam/lwt": "*"
+  },
+  "resolutions": {
+    "@brisk/brisk-reconciler": "github:briskml/brisk-reconciler#1b8f321",
+    "@opam/js_of_ocaml": "github:ocsigen/js_of_ocaml:js_of_ocaml.opam#db257ce",
+    "@opam/js_of_ocaml-compiler": "github:ocsigen/js_of_ocaml:js_of_ocaml-compiler.opam#db257ce",
+    "revery": "github:revery-ui/revery#4592e33"
+  },
+  "devDependencies": {
+    "ocaml": "~4.7.0",
+    "@opam/merlin": "*"
+  }
+}

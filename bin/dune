@@ -1,0 +1,5 @@
+(executable
+	(name FastRun)
+	(public_name FastRun)
+	(libraries lwt Revery lib)
+  (preprocess (pps lwt_ppx)))
