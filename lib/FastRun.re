@@ -20,12 +20,12 @@ module Example = {
 
   let component = React.component("Example");
 
-  let createElement = (~window, ~children as _, ()) =>
+  let createElement = (~children as _, ()) =>
     component(slots => {
-      let ({first}, setValue, slots) =
+      let ({first}, setValue, slots: React.Hooks.empty) =
         React.Hooks.state({first: ""}, slots);
 
-      (slots, <View style=containerStyle>
+      <View style=containerStyle>
         <Input
           style=Style.[
             width(800),
@@ -34,13 +34,12 @@ module Example = {
             fontSize(80),
             margin(20),
           ]
-          window
           placeholder="Insert text here!!"
           placeholderColor=Colors.white
           onChange={(~value) => setValue({first: value})}
         />
-      </View>);
+      </View>;
     });
 };
 
-let render = (window) => <Example window />;
+let render = () => <Example />;

@@ -1,14 +1,14 @@
 {
-  "checksum": "4a07c7208b01b9753cdf41dadc104087",
+  "checksum": "3a661cd44055128c93db57e54da48543",
   "root": "fast-run@link-dev:./package.json",
   "node": {
-    "revery@github:revery-ui/revery#4592e33@d41d8cd9": {
-      "id": "revery@github:revery-ui/revery#4592e33@d41d8cd9",
+    "revery@github:revery-ui/revery#77d30d7@d41d8cd9": {
+      "id": "revery@github:revery-ui/revery#77d30d7@d41d8cd9",
       "name": "revery",
-      "version": "github:revery-ui/revery#4592e33",
+      "version": "github:revery-ui/revery#77d30d7",
       "source": {
         "type": "install",
-        "source": [ "github:revery-ui/revery#4592e33" ]
+        "source": [ "github:revery-ui/revery#77d30d7" ]
       },
       "overrides": [],
       "dependencies": [
@@ -22,7 +22,7 @@
         "@opam/js_of_ocaml@github:ocsigen/js_of_ocaml:js_of_ocaml.opam#db257ce@d41d8cd9",
         "@opam/color@opam:0.2.0@8ef09171",
         "@esy-ocaml/reason@3.4.0@d41d8cd9",
-        "@brisk/brisk-reconciler@github:briskml/brisk-reconciler#1b8f321@d41d8cd9"
+        "@brisk/brisk-reconciler@github:briskml/brisk-reconciler#d6a8f60@d41d8cd9"
       ],
       "devDependencies": []
     },
@@ -170,7 +170,7 @@
       },
       "overrides": [],
       "dependencies": [
-        "revery@github:revery-ui/revery#4592e33@d41d8cd9",
+        "revery@github:revery-ui/revery#77d30d7@d41d8cd9",
         "refmterr@3.1.10@d41d8cd9", "ocaml@4.7.1004@d41d8cd9",
         "@reason-native/rely@1.1.0@d41d8cd9",
         "@reason-native/console@0.0.3@d41d8cd9",
@@ -1384,14 +1384,14 @@
       ],
       "devDependencies": []
     },
-    "@brisk/brisk-reconciler@github:briskml/brisk-reconciler#1b8f321@d41d8cd9": {
+    "@brisk/brisk-reconciler@github:briskml/brisk-reconciler#d6a8f60@d41d8cd9": {
       "id":
-        "@brisk/brisk-reconciler@github:briskml/brisk-reconciler#1b8f321@d41d8cd9",
+        "@brisk/brisk-reconciler@github:briskml/brisk-reconciler#d6a8f60@d41d8cd9",
       "name": "@brisk/brisk-reconciler",
-      "version": "github:briskml/brisk-reconciler#1b8f321",
+      "version": "github:briskml/brisk-reconciler#d6a8f60",
       "source": {
         "type": "install",
-        "source": [ "github:briskml/brisk-reconciler#1b8f321" ]
+        "source": [ "github:briskml/brisk-reconciler#d6a8f60" ]
       },
       "overrides": [],
       "dependencies": [

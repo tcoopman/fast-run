@@ -40,7 +40,7 @@ let init = app => {
     );
 
   let render = () => {
-    Lib.FastRun.render(win);
+    Lib.FastRun.render();
   };
 
   let xPosition = (dimensions.width - windowWidth) / 2;
